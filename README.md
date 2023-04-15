@@ -1,7 +1,7 @@
 
 <div>
-  <img src="images/image1.png" width= "300">
-  <img src="images/image2.png" width= "300">
+  <img src="images/image1.png" width= "400">
+  <img src="images/image2.png" width= "400">
 <div>
 
 <div>
