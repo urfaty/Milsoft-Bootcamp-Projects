@@ -1,4 +1,3 @@
-7th swift project
 
 <div>
   <img src="images/image1.png" width= "300">
