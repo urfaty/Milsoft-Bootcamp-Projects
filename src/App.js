@@ -17,14 +17,19 @@ import SelectComponent from './further/SelectComponent';
 import { FetchList } from './fetch/FetchList';
 import { FetchGet } from './fetch/FetchGet';
 import RouteDefinition from './router/app/RouteDefinition';
+import OutlinedCard from './mui/card';
+import { HolderComponent } from './redux/HolderComponent';
+import { Provider } from 'react-redux';
+import store from './redux/coreStore';
+
 
 
 function App() {
   return (
+    <Provider store={store}> 
     <div className="App">
       <header className="App-header">
-        merhabalar efendim
-        nasılsınız bugun <br/>
+        merhabalar  <br/>
 
         {/* <FunctionComponent/> */}
         {/* <ParentComponent /> */}
@@ -41,10 +46,13 @@ function App() {
         {/* <SelectComponent/> */}
         {/* <FetchList/> */}
         {/* <FetchGet/> */}
-        <RouteDefinition/>
+        {/* <RouteDefinition/> */}
+        {/* <OutlinedCard/> */}
+        <HolderComponent/>
 
       </header>
     </div>
+    </Provider>
   );
 }
 
